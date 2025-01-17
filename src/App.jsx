@@ -1,11 +1,17 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from 'react';
+import './App.css';
+import HomePage from '../public/Components/HomePage';
+import Expertise from '../public/Components/Expertise';
+import Work from '../public/Components/Work';
+import About from '../public/Components/About';
+import Contacts from '../public/Components/Contacts'
 
 function App() {
 
   return (
     <>
-     <nav className="navbar">
+    <div className="navigation">
+    <nav className="navbar">
       <div className="navdiv">
         <div className="logo">
           <a href="#">
@@ -21,6 +27,12 @@ function App() {
         </ul>
       </div>
      </nav>
+    </div>
+    <HomePage/>
+    <About/>
+    <Expertise/>
+    <Work/>
+    <Contacts/>
     </>
   )
 }

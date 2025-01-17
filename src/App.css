@@ -1,5 +1,11 @@
 *{
   text-decoration: none;
+  background-color: #132E35;
+  /* background-image: url("/bg-img-portfolio.png"); */
+   /* background-color: #9c6DB0;*/
+/*background-image: linear-gradient(315deg, #9c6DB0 0%, #233A4E 74%); */
+
+  
 }
 .navbar{
   background: crimson; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -13,4 +19,56 @@
 font-size: 35px;
 font-weight: 600;
 color: white;
+}
+
+li{
+  list-style: none;
+  display: inline-block;
+}
+li a{
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+
+.main-heading{
+  font-size: 100px;
+  text-align: center;
+  color: white;
+  margin-bottom: 5px;
+  font-family: "Kanit", serif;
+  font-weight: 550;
+  font-style: normal;
+}
+
+.id{
+text-align: center;
+color: white;
+margin-bottom: 55px;
+font-family: "Kanit", serif;
+}
+img{
+  border-radius: 60%;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.about-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.one .two{
+  border: #131A24;
+}
+.expertise-heading{
+  text-align: center;
+  font-family: "Kanit", serif;
+  font-weight: 600;
+  color: white;
+  margin-top: 150px;
+  margin-bottom: 50px;
 }
