@@ -15,7 +15,7 @@ function App() {
       <div className="navdiv">
         <div className="logo">
           <a href="#">
-          Reabetswe Makgabutla
+          RM
           </a>
         </div>
         <ul className="nav-menu">

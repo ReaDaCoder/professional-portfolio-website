@@ -28,6 +28,7 @@ body {
   font-size: 35px;
   font-weight: 600;
   color: white;
+  margin-left: 12px;
 }
 
 .nav-menu {
@@ -57,7 +58,7 @@ li a {
   transition: 0.5s;
 }
 
-.nav-connect:hover{
+.nav-connect:hover,.hero-connect:hover, .hero-cv:hover {
   transform: scale(1.05);
 }
 
@@ -79,24 +80,39 @@ li a {
 .hero-action{
   display: flex;
   justify-content: center;
+  gap: 24px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 50px;
+
 }
 
 .id {
+  /* width: 50%; */
   text-align: center;
   color: white;
   margin-bottom: 55px;
   font-family: "Kanit", serif;
+  font-size: 24px;
+  line-height: 40px;
 }
 
 img {
   border-radius: 60%;
+  margin-left: 15px;
 }
 
 .hero-intro{
   text-align: center;
-  width: 70%;
-  font-size: 90px;
-  font-weight: 600;
+  width: 40%;
+  font-size: 40px;
+  font-weight: 500;
+}
+.hero-name{
+  /* text-align: center; */
+  /* width: 20%; */
+  font-size: 25px;
+  font-weight: 500;
 }
 .wrapper {
   display: flex;
@@ -105,9 +121,9 @@ img {
 }
 .about-box {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
 .about-one{
@@ -116,6 +132,45 @@ margin-right: 25px;
 
 .about-two{
 margin-left: 25px;
+display: flex;
+flex-direction: column;
+}
+
+.about-paragraph{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 17px;
+  font-weight: 350;
+}
+
+.about-skills{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+
+.skill{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.skill p{
+  min-width: 150px;
+  font-size:24px;
+  font-weight: 500;
+}
+
+.skill hr{
+  outline: none;
+  border: none;
+  width:50%;
+  height: 8px;
+  border-radius: 50px;
+  background: linear-gradient(264deg,#F8A4D8 -5.09%,#6c63FF 106.28% );
 }
 
 .one .two {
