@@ -114,11 +114,33 @@ img {
   font-size: 25px;
   font-weight: 500;
 }
-.wrapper {
+.wrapper{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
+ .one, .two{
+  border-radius: 10px;
+  border: 2px solid white;
+  padding:60px;
+  transition: 0.4s;
+  cursor:pointer;
+}
+
+.one:hover, .two:hover {
+  border:2px solid #F8A4D8;
+  background: linear-gradient(45deg,#D17EB9 10%, #5449CC);
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+
+.expertise-sub{
+  background: linear-gradient(270deg,#F8A4D8 10%, #6c63FF 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .about-box {
   display: flex;
   justify-content: center;
@@ -173,14 +195,27 @@ flex-direction: column;
   background: linear-gradient(264deg,#F8A4D8 -5.09%,#6c63FF 106.28% );
 }
 
+.skill:hover{
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
 .one .two {
   border: #131a24;
 }
-.expertise-heading {
+.expertise-heading,  .mywork-title{
   text-align: center;
   font-family: "Kanit", serif;
+  font-size: 80px;
   font-weight: 600;
   color: white;
+  padding: 0px 30px;
   margin-top: 150px;
   margin-bottom: 50px;
+}
+
+.work-container{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
 }

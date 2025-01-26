@@ -30,10 +30,10 @@ export default function About() {
           building impactful digital skills.</p>
           </div>
           <div className="about-skills">
-            <div className="skill"><p>HTML & CSS</p><hr style={{width:"50%"}}/></div>
-            <div className="skill"><p>JavaScript</p><hr style={{width:"70%"}}/></div>
-            <div className="skill"><p>React JS</p><hr style={{width:"60%"}}/></div>
-            <div className="skill"><p>React Native</p><hr style={{width:"60%"}}/></div>
+            <div className="skill"><p>HTML & CSS</p><hr style={{width:"80%"}}/></div>
+            <div className="skill"><p>JavaScript</p><hr style={{width:"60%"}}/></div>
+            <div className="skill"><p>React JS</p><hr style={{width:"65%"}}/></div>
+            <div className="skill"><p>React Native</p><hr style={{width:"40%"}}/></div>
             <div className="skill"><p>Mongo DB</p><hr style={{width:"50%"}}/></div>
           </div>
         </div>
