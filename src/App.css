@@ -65,16 +65,15 @@ li a {
 .main-heading {
   font-size: 100px;
   text-align: center;
-  /* color: white; */
+  font-family: "Kanit", serif;
+  font-weight: 600;
+  font-style: normal;
   background: linear-gradient(270deg,#F8A4D8 10%, #6c63FF 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color:transparent;
   margin-bottom: 5px;
   margin-top: 80px;
-  font-family: "Kanit", serif;
-  font-weight: 550;
-  font-style: normal;
 }
 
 .hero-action{
@@ -217,5 +216,26 @@ flex-direction: column;
 .work-container{
   display: flex;
   justify-content: center;
-  gap: 25px;
+  gap: 65px;
+}
+
+.work-img{
+  margin-top: 35px;
+  align-items: center;
+  justify-content: center;
+}
+
+.work{
+  border-radius: 10px;
+  border: 2px solid white;
+  padding:60px;
+  transition: 0.4s;
+  cursor:pointer;
+}
+
+.work:hover{
+  border:2px solid #F8A4D8;
+  background: linear-gradient(45deg,#D17EB9 10%, #5449CC);
+  transform: scale(1.05);
+  transition: 0.4s;
 }
