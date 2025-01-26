@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
 
 export default function Work(){
     return(
@@ -22,6 +23,7 @@ export default function Work(){
                         <li>About:</li>
                     </ul>
                 </div>
+                <FaBeer />
             </div>
             <div className="work">
                 <h3>Guessing Game</h3>
