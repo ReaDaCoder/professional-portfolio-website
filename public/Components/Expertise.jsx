@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Expertise(){
     return(
-        <>
+        <div id="expertise">
         <h1 className="expertise-heading">My Expertise</h1>
         <div className="wrapper">
             <div className="one">
@@ -17,6 +17,6 @@ export default function Expertise(){
                 <p>Skilled in developing mobile apps and cross platform solutions using React Native</p>
             </div>
             </div>
-        </>
+        </div>
     )
 }

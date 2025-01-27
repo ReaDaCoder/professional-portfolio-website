@@ -20,10 +20,10 @@ function App() {
         </div>
         <ul className="nav-menu">
   <li className="nav-item"><a href="#">Home</a></li>
-  <li className="nav-item"><a href="#">About Me</a></li>
-  <li className="nav-item"><a href="#">Expertise</a></li>
-  <li className="nav-item"><a href="#">Work</a></li>
-  <li className="nav-item"><a href="#">Contact</a></li>
+  <li className="nav-item"><a href="#about">About Me</a></li>
+  <li className="nav-item"><a href="#expertise">Expertise</a></li>
+  <li className="nav-item"><a href="#work">Work</a></li>
+  <li className="nav-item"><a href="#contacts">Contact</a></li>
 </ul>
         <div className="nav-connect">Connect With Me</div>
       </div>

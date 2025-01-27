@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <>
+    <div id="about">
       <div className="about-box">
         <div className="about-one">
         <img
@@ -33,6 +33,6 @@ export default function About() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

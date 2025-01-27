@@ -218,7 +218,7 @@ flex-direction: column;
   justify-content: center;
 }
 
-.work, .contact-link{
+.work{
   border-radius: 10px;
   border: 2px solid white;
   padding:60px;
@@ -241,5 +241,20 @@ flex-direction: column;
   display: block;
   width: 65px;
   color:red;
+}
+
+.contact-container{
+  margin: 25px;
+  margin-bottom: 30px;
+}
+
+.contact-link{
+  border-radius: 10px;
+  border: 2px solid white;
+  padding: 50px;
+  transition: 0.4s;
+  cursor:pointer;
+  justify-content: space-evenly;
+  align-items: center;
 }
 

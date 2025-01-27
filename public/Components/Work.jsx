@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 
 export default function Work() {
   return (
-    <>
+    <div id="work">
       <div className="mywork-title">
         <h2>Work</h2>
       </div>
@@ -89,6 +89,6 @@ export default function Work() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
