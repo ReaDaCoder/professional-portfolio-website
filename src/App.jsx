@@ -19,13 +19,12 @@ function App() {
           </a>
         </div>
         <ul className="nav-menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Expertise</a></li>
-          <li><a href="#">Work</a></li>
-          {/* <li><a href="#">Experience</a></li> */}
-          <li><a href="#">Contact</a></li>
-        </ul>
+  <li className="nav-item"><a href="#">Home</a></li>
+  <li className="nav-item"><a href="#">About Me</a></li>
+  <li className="nav-item"><a href="#">Expertise</a></li>
+  <li className="nav-item"><a href="#">Work</a></li>
+  <li className="nav-item"><a href="#">Contact</a></li>
+</ul>
         <div className="nav-connect">Connect With Me</div>
       </div>
      </nav>

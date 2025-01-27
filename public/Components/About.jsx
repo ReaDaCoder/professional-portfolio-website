@@ -11,11 +11,6 @@ export default function About() {
             width="350"
             className="profile-img"
           />
-          {/* <img
-            src="/public/Components/my-pictture.jpg"
-            alt="React Image"
-            width="350"
-          /> */}
         </div>
         <div className="about-two">
           <h2 className="hero-intro">Hi I'm,</h2>
