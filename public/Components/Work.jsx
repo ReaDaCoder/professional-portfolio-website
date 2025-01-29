@@ -71,21 +71,21 @@ export default function Work() {
         <div className="work">
           <h3>Hotel Booking App</h3>
           <img
-            src="/src/assets/work-cover-img.jpg"
+            src="/src/assets/hotel-app.png"
             alt="React Image"
             width="150"
             className="work-img"
           />
           <div className="work-tools">
             <ul className="tools-list">
-              <li className="tool-item">Language:</li>
-              <li className="tool-item">Framework:</li>
+              <li className="tool-item">Language: JavaScript</li>
+              <li className="tool-item">Framework: Reactjs</li>
               <li className="tool-item">About:</li>
             </ul>
           </div>
           <div className="code-live">
-            <div className="code"><a href="#"><FaGithub /></a></div>
-            <div className="live"><a href="#">Live</a></div>
+            <div className="code"><a href="https://github.com/ReaDaCoder/hotel-booking-app.git"><FaGithub /></a></div>
+            <div className="live"><a href="https://hotel-booking-app-one-nu.vercel.app/">Live</a></div>
           </div>
         </div>
       </div>

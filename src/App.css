@@ -89,7 +89,7 @@ body {
   line-height: 40px;
 }
 
-img {
+.profile-img {
   border-radius: 60%;
   margin-left: 15px;
 }
@@ -241,6 +241,24 @@ flex-direction: column;
   display: block;
   width: 65px;
   color:red;
+}
+
+.code-live{
+  display: flex;
+  gap: 25px;
+}
+
+.code{
+  font-size: 60px;
+  color: #161513;
+}
+
+.live{
+  border-radius: 10px;
+  border: 2px solid white;
+  padding:15px 15px 5px 15px;
+  font-weight: 600;
+  font-size: large;
 }
 
 .contact-container{
