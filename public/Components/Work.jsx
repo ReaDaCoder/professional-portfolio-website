@@ -24,8 +24,8 @@ export default function Work() {
             </ul>
           </div>
           <div className="code-live">
-            <div className="code"><a href="#"><FaGithub /></a></div>
-            <div className="live"><a href="#">Live</a></div>
+            <div className="code"><a href="https://github.com/ReaDaCoder/my-react-weather-app.git"><FaGithub /></a></div>
+            {/* <div className="live"><a href="#">Live</a></div> */}
           </div>
         </div>
         <div className="work">
@@ -44,7 +44,7 @@ export default function Work() {
             </ul>
           </div>
           <div className="code-live">
-            <div className="code"><a href="#"><FaGithub /></a></div>
+            <div className="code"><a href="https://github.com/ReaDaCoder/game.git"><FaGithub /></a></div>
             <div className="live"><a href="#">Live</a></div>
           </div>
         </div>
@@ -64,7 +64,7 @@ export default function Work() {
             </ul>
           </div>
           <div className="code-live">
-            <div className="code"><a href="#"><FaGithub /></a></div>
+            <div className="code"><a href="https://github.com/ReaDaCoder/my-recipe-app-react.git"><FaGithub /></a></div>
             <div className="live"><a href="#">Live</a></div>
           </div>
         </div>
