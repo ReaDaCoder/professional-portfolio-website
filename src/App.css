@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+/* .navigation{
+  position: fixed;
+} */
+
 body {
   height: 100vh;
   background: #161513;
