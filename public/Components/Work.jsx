@@ -71,7 +71,7 @@ export default function Work() {
         <div className="work">
           <h3>Hotel Booking App</h3>
           <img
-            src="/public/hotel-app.png"
+            src="/images/hotel-app.png"
             alt="React Image"
             width="150"
             className="work-img"

@@ -6,7 +6,7 @@ export default function About() {
       <div className="about-box">
         <div className="about-one">
         <img
-            src="/public/profile-image.png"
+            src="/images/profile-image.png"
             alt="React Image"
             width="350"
             className="profile-img"
