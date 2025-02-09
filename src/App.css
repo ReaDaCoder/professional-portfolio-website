@@ -29,6 +29,7 @@ body {
 
 .nav-menu {
   font-size: 20px;
+  justify-content: center;
 }
   
 
@@ -243,8 +244,9 @@ flex-direction: column;
 
 .icon{
   display: block;
-  width: 65px;
-  color:red;
+  font-size: 60px;
+  
+  color:grey;
 }
 
 .code-live{

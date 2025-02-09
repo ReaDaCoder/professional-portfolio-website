@@ -14,7 +14,8 @@ export default function Expertise(){
             </div>
             <div className="two">
                 <h3 className="expertise-sub">Mobile Dev</h3>
-                <p>Skilled in developing mobile apps and cross platform solutions using React Native</p>
+                <p>Skilled in developing mobile apps and cross<br/>
+                    platform solutions using React Native</p>
             </div>
             </div>
         </div>
